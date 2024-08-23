@@ -37,6 +37,8 @@
     </script>
 
 
+
+
 </head>
 
 <body class="font-custom-font">
@@ -47,13 +49,13 @@
 
             <!-- dropdown nav -->
             <nav>
-                <div class="navbar bg-slate-100">
+                <div class="navbar justify-between bg-slate-100 w-full">
 
                     <!-- start item -->
-                    <div class="navbar-start">
-                        <a class="btn btn-ghost text-2xl font-extrabold">
-                            <img src="./assets/arrow-up-right-01.png">
-                            Rinterio
+                    <div class="">
+                        <a class="btn btn-ghost text-2xl font-extrabold flex items-center space-x-2">
+                            <img src="./assets/arrow-up-right-01.png" class="inline-block">
+                            <span>Rinterio</span>
                         </a>
                     </div>
 
@@ -69,11 +71,12 @@
                     </div>
 
                     <!-- end item -->
-                    <div class="navbar-end">
+                    <div class="">
 
                         <!-- buttons at the end on large screen -->
                         <div class="space-x-6 hidden lg:flex">
                             <a class="bg-white p-3 rounded-full">
+                                <!-- SVGs here -->
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
                                     color="#000000" fill="none">
                                     <path d="M17.5 17.5L22 22" stroke="currentColor" stroke-width="1.5"
@@ -83,7 +86,8 @@
                                         stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" />
                                 </svg>
                             </a>
-                            <a class="bg-white p-3 rounded-full">
+
+                            <a class="bg-white p-3 box-border rounded-full">
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
                                     color="#000000" fill="none">
                                     <path d="M8 16L16.7201 15.2733C19.4486 15.046 20.0611 14.45 20.3635 11.7289L21 6"
@@ -100,6 +104,7 @@
                             </a>
                             <a class="btn bg-color-primary font-extrabold text-xl rounded-3xl">
                                 Book Consult
+                                <!-- SVG here -->
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="black"
                                     class="bi bi-arrow-up-right-circle-fill" viewBox="0 0 16 16">
                                     <path
@@ -129,7 +134,6 @@
                     </div>
                 </div>
             </nav>
-
 
             <!-- banner -->
             <div class="space-y-8">
