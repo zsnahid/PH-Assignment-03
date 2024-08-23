@@ -44,26 +44,20 @@
     <!-- header -->
     <header class="bg-slate-100 pb-5 lg:pb-32">
         <section class="w-11/12 mx-auto md:container">
-            <!-- nav -->
+
+            <!-- dropdown nav -->
             <nav>
-                <div class="navbar bg-slate-100 justify-between">
-                    <div>
-                        <img src="./assets/arrow-up-right-01.png" class="mr-2">
-                        <a class="text-2xl font-extrabold">Rinterio</a>
+                <div class="navbar bg-slate-100">
+
+                    <!-- start item -->
+                    <div class="navbar-start">
+                        <a class="btn btn-ghost text-2xl font-extrabold">
+                            <img src="./assets/arrow-up-right-01.png">
+                            Rinterio
+                        </a>
                     </div>
 
-                    <!-- button hidden for large device -->
-                    <div class="flex-none lg:hidden">
-                        <button class="btn btn-circle bg-white">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
-                                class="bi bi-list" viewBox="0 0 16 16">
-                                <path fill-rule="evenodd"
-                                    d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5" />
-                            </svg>
-                        </button>
-                    </div>
-
-                    <!-- center menu on large screen -->
+                    <!-- center items -->
                     <div class="navbar-center hidden lg:flex">
                         <ul class="menu menu-horizontal px-1">
                             <li><a class="font-bold">House</a></li>
@@ -74,43 +68,68 @@
                         </ul>
                     </div>
 
-                    <!-- buttons at the end on large screen -->
-                    <div class="space-x-6 hidden lg:flex">
-                        <a class="bg-white p-3 rounded-full">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
-                                color="#000000" fill="none">
-                                <path d="M17.5 17.5L22 22" stroke="currentColor" stroke-width="1.5"
-                                    stroke-linecap="round" stroke-linejoin="round" />
-                                <path
-                                    d="M20 11C20 6.02944 15.9706 2 11 2C6.02944 2 2 6.02944 2 11C2 15.9706 6.02944 20 11 20C15.9706 20 20 15.9706 20 11Z"
-                                    stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" />
-                            </svg>
-                        </a>
-                        <a class="bg-white p-3 rounded-full">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
-                                color="#000000" fill="none">
-                                <path d="M8 16L16.7201 15.2733C19.4486 15.046 20.0611 14.45 20.3635 11.7289L21 6"
-                                    stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
-                                <path d="M6 6H22" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
-                                <circle cx="6" cy="20" r="2" stroke="currentColor" stroke-width="1.5" />
-                                <circle cx="17" cy="20" r="2" stroke="currentColor" stroke-width="1.5" />
-                                <path d="M8 20L15 20" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
-                                <path
-                                    d="M2 2H2.966C3.91068 2 4.73414 2.62459 4.96326 3.51493L7.93852 15.0765C8.08887 15.6608 7.9602 16.2797 7.58824 16.7616L6.63213 18"
-                                    stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
-                            </svg>
-                        </a>
-                        <a class="btn bg-color-primary font-extrabold text-xl rounded-3xl">
-                            Book Consult
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="black"
-                                class="bi bi-arrow-up-right-circle-fill" viewBox="0 0 16 16">
-                                <path
-                                    d="M0 8a8 8 0 1 0 16 0A8 8 0 0 0 0 8m5.904 2.803a.5.5 0 1 1-.707-.707L9.293 6H6.525a.5.5 0 1 1 0-1H10.5a.5.5 0 0 1 .5.5v3.975a.5.5 0 0 1-1 0V6.707z" />
-                            </svg>
-                        </a>
+                    <!-- end item -->
+                    <div class="navbar-end">
+
+                        <!-- buttons at the end on large screen -->
+                        <div class="space-x-6 hidden lg:flex">
+                            <a class="bg-white p-3 rounded-full">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                                    color="#000000" fill="none">
+                                    <path d="M17.5 17.5L22 22" stroke="currentColor" stroke-width="1.5"
+                                        stroke-linecap="round" stroke-linejoin="round" />
+                                    <path
+                                        d="M20 11C20 6.02944 15.9706 2 11 2C6.02944 2 2 6.02944 2 11C2 15.9706 6.02944 20 11 20C15.9706 20 20 15.9706 20 11Z"
+                                        stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" />
+                                </svg>
+                            </a>
+                            <a class="bg-white p-3 rounded-full">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                                    color="#000000" fill="none">
+                                    <path d="M8 16L16.7201 15.2733C19.4486 15.046 20.0611 14.45 20.3635 11.7289L21 6"
+                                        stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
+                                    <path d="M6 6H22" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
+                                    <circle cx="6" cy="20" r="2" stroke="currentColor" stroke-width="1.5" />
+                                    <circle cx="17" cy="20" r="2" stroke="currentColor" stroke-width="1.5" />
+                                    <path d="M8 20L15 20" stroke="currentColor" stroke-width="1.5"
+                                        stroke-linecap="round" />
+                                    <path
+                                        d="M2 2H2.966C3.91068 2 4.73414 2.62459 4.96326 3.51493L7.93852 15.0765C8.08887 15.6608 7.9602 16.2797 7.58824 16.7616L6.63213 18"
+                                        stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
+                                </svg>
+                            </a>
+                            <a class="btn bg-color-primary font-extrabold text-xl rounded-3xl">
+                                Book Consult
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="black"
+                                    class="bi bi-arrow-up-right-circle-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M0 8a8 8 0 1 0 16 0A8 8 0 0 0 0 8m5.904 2.803a.5.5 0 1 1-.707-.707L9.293 6H6.525a.5.5 0 1 1 0-1H10.5a.5.5 0 0 1 .5.5v3.975a.5.5 0 0 1-1 0V6.707z" />
+                                </svg>
+                            </a>
+                        </div>
+
+                        <!-- hamburger menu -->
+                        <div class="dropdown">
+                            <div tabindex="0" role="button" class="btn btn-circle bg-white lg:hidden">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                                    class="bi bi-list" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5" />
+                                </svg>
+                            </div>
+                            <ul tabindex="0"
+                                class="menu menu-sm dropdown-content top-12 right-0 bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                                <li><a class="font-bold">House</a></li>
+                                <li><a>Services</a></li>
+                                <li><a>Portfolio</a></li>
+                                <li><a>Blogs</a></li>
+                                <li><a>Contact Us</a></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </nav>
+
 
             <!-- banner -->
             <div class="space-y-8">
