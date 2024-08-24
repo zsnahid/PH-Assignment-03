@@ -45,7 +45,7 @@
 
     <!-- header -->
     <header class="bg-slate-100 pb-5 lg:pb-32">
-        <section class="w-11/12 mx-auto md:container">
+        <section class="w-11/12 mx-auto md:w-[80%] 2xl:container">
 
             <!-- dropdown nav -->
             <nav>
@@ -60,7 +60,7 @@
                     </div>
 
                     <!-- center items -->
-                    <div class="navbar-center hidden lg:flex">
+                    <div class="navbar-center hidden xl:flex">
                         <ul class="menu menu-horizontal px-1">
                             <li><a class="font-bold">House</a></li>
                             <li><a>Services</a></li>
@@ -74,10 +74,12 @@
                     <div class="">
 
                         <!-- buttons at the end on large screen -->
-                        <div class="space-x-6 hidden lg:flex">
+                        <div class="space-x-6 hidden md:flex items-center">
+
+                            <!-- search icon -->
                             <a class="bg-white p-3 rounded-full">
                                 <!-- SVGs here -->
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16"
                                     color="#000000" fill="none">
                                     <path d="M17.5 17.5L22 22" stroke="currentColor" stroke-width="1.5"
                                         stroke-linecap="round" stroke-linejoin="round" />
@@ -87,8 +89,10 @@
                                 </svg>
                             </a>
 
+
+                            <!-- cart icon -->
                             <a class="bg-white p-3 box-border rounded-full">
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16"
                                     color="#000000" fill="none">
                                     <path d="M8 16L16.7201 15.2733C19.4486 15.046 20.0611 14.45 20.3635 11.7289L21 6"
                                         stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
@@ -102,10 +106,12 @@
                                         stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
                                 </svg>
                             </a>
-                            <a class="btn bg-color-primary font-extrabold text-xl rounded-3xl">
+
+                            <!-- book icon -->
+                            <a class="btn bg-color-primary font-extrabold text-base rounded-3xl">
                                 Book Consult
                                 <!-- SVG here -->
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="black"
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="black"
                                     class="bi bi-arrow-up-right-circle-fill" viewBox="0 0 16 16">
                                     <path
                                         d="M0 8a8 8 0 1 0 16 0A8 8 0 0 0 0 8m5.904 2.803a.5.5 0 1 1-.707-.707L9.293 6H6.525a.5.5 0 1 1 0-1H10.5a.5.5 0 0 1 .5.5v3.975a.5.5 0 0 1-1 0V6.707z" />
@@ -115,7 +121,7 @@
 
                         <!-- hamburger menu -->
                         <div class="dropdown">
-                            <div tabindex="0" role="button" class="btn btn-circle bg-white lg:hidden">
+                            <div tabindex="0" role="button" class="btn btn-circle bg-white xl:hidden ml-5">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
                                     class="bi bi-list" viewBox="0 0 16 16">
                                     <path fill-rule="evenodd"
@@ -174,7 +180,8 @@
         <section class="bg-slate-200 space-y-10 lg:space-y-32 py-5 lg:py-20">
 
             <!-- about us -->
-            <section class="w-11/12 md:container mx-auto space-y-5 relative lg:grid lg:grid-cols-2 lg:gap-10">
+            <section
+                class="w-11/12 md:w-[80%] 2xl:container mx-auto space-y-5 relative lg:grid lg:grid-cols-2 lg:gap-10">
                 <div class="hidden lg:block absolute -top-10 -left-10">
                     <img src="./assets/Vector.png">
                 </div>
@@ -224,7 +231,7 @@
 
                     <!-- second card -->
                     <div class="card card-side items-start p-5 gap-5 bg-base-100">
-                        <figure class="">
+                        <figure>
                             <img src="./assets/residential.png" />
                         </figure>
                         <div class="card-body p-0">
@@ -237,7 +244,7 @@
                 </div>
 
                 <!-- second column -->
-                <div class="items-center">
+                <div class="self-center">
                     <!-- image -->
                     <figure>
                         <img src="./assets/Rectangle.png"
@@ -247,7 +254,7 @@
             </section>
 
             <!-- work process -->
-            <section class="w-11/12 md:container mx-auto space-y-5 lg:space-y-8">
+            <section class="w-11/12 md:w-[80%] 2xl:container mx-auto space-y-5 lg:space-y-8">
                 <!-- button -->
                 <div class="w-fit mx-auto">
                     <a class="btn text-sm bg-white text-gray-primary font-bold rounded-3xl text-gray-primary">
@@ -317,7 +324,7 @@
 
         <section class="bg-white space-y-8 lg:space-y-4 pt-5 mb-2 lg:pt-20">
             <!-- latest portfolio -->
-            <section class="w-11/12 md:container mx-auto space-y-5 lg:space-y-8">
+            <section class="w-11/12 md:w-[80%] 2xl:container mx-auto space-y-5 lg:space-y-8">
                 <!-- button -->
                 <div class="w-fit mx-auto">
                     <a
@@ -409,7 +416,7 @@
 
             <!-- challenge part -->
             <!-- why choose us -->
-            <section class="w-11/12 md:container mx-auto space-y-5 lg:space-y-8 lg:pt-16">
+            <section class="w-11/12 md:w-[80%] 2xl:container mx-auto space-y-5 lg:space-y-8 lg:pt-16">
                 <!-- button -->
                 <div class="w-fit mx-auto">
                     <a
@@ -576,7 +583,7 @@
             <!-- next project -->
             <section class="w-[98%] mx-auto py-5 lg:py-20 bg-paper-texture">
 
-                <div class="md:container mx-auto space-y-5 lg:space-y-8">
+                <div class="md:w-[80%] 2xl:container mx-auto space-y-5 lg:space-y-8">
                     <!-- button -->
                     <div class="w-fit mx-auto">
                         <a
